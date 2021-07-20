@@ -1,0 +1,26 @@
+[
+    {
+        "screen": "home",
+        "hero": "Hello! Great that you are joining",
+        "span": "Vote Rookie",
+        "message": "To personalize Vote Rookie for you, I would like to ask you a few questions.",
+        "text": "",
+        "foot": "Please fill in the details below"
+    },
+    {
+        "screen": "avatar_seclect",
+        "hero": "Perfect",
+        "span": "",
+        "message": "Nice to meet you.",
+        "text": "Which of the following avatars represents you best",
+        "foot": "Choose your favorite"
+    },
+    {
+        "screen": "verify_mail",
+        "hero": "Verify your mail",
+        "span": "",
+        "message": "Almost there! We ve sent a verification email to",
+        "text": " You need to verify your email to log in to VoteRookie",
+        "foot": ""
+    }
+]

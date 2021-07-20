@@ -1,0 +1,41 @@
+#login {
+    color: red;
+
+    align-items: center;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.form_login {
+    align-items: flex-start;
+    background-color: var(--white);
+    border-radius: 5px;
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    min-width: 314px;
+    padding: 8.5px 7.5px;
+}
+
+.inputEmail {
+    position: absolute;
+    left: 30.5px;
+    top: 406px;
+    align-items: flex-start;
+    display: flex;
+    height: 42px;
+    justify-content: flex-end;
+    margin-top: 19px;
+    min-width: 314px;
+    padding: 8.5px 7.5px;
+}
+
+.inputPass {
+    position: absolute;
+    width: 314px;
+    height: 42px;
+    left: 30.5px;
+    top: 467px;
+}

@@ -1,0 +1,86 @@
+.form__group {
+    position: absolute;
+
+    left: 29.27px;
+    top: 441.34px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.form__field {
+    font-family: inherit;
+
+    margin-top: 1rem;
+}
+
+.form-register_field {
+    letter-spacing: 0;
+    width: 314px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 3rem;
+    padding: 8.5px 7.5px;
+    &::placeholder {
+        font-family: rubik;
+        font-weight: 200;
+        font-size: 14px;
+        color: rgb(37, 76, 99);
+    }
+}
+
+.form-register_field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, $primary, $secondary);
+    border-image-slice: 1;
+}
+/* reset input */
+.form-register_field {
+    &:required,
+    &:invalid {
+        box-shadow: none;
+    }
+}
+
+.figma_button_continue {
+    /* Buttons */
+
+    width: 314px;
+    height: 56px;
+
+    /* Gradient */
+
+    background: linear-gradient(244.58deg, #da3675 0%, #2047ff 100%);
+    /* Shadow */
+
+    box-shadow: 0px 10px 20px rgba(40, 38, 109, 0.18);
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.figma_button_text {
+    /* Login */
+    height: 19px;
+    left: 115.5px;
+
+    /* Button Text */
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #ffffff;
+}

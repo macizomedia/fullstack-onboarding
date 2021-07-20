@@ -1,0 +1,34 @@
+{
+  "name": "vrn-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development node src/server.js",
+    "test": "mocha test/**/*IntegrationTest.js"
+  },
+  "engines": {
+    "node": "14.x.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.2",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.5",
+    "string-format": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
