@@ -23,11 +23,13 @@ This onboarding project was written on typescript.
 ```
 yarn start
 ```
+client will run on http://localhost:3000
 
 * cd into server
 ```
 npm start
 ```
+server will run on http://localhost:4040
 
 ## Help
 
