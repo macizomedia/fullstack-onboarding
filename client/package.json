@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@types/js-cookie": "^2.2.7",
     "@types/react-router-dom": "^5.1.8",
     "@types/react-transition-group": "^4.4.2",
     "@types/styled-components": "^5.1.11",
